@@ -26,14 +26,19 @@
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding-left: 850px;
+  font-size: 30px;
 }
 
 .footer-left-link {
   font-size: 30px;
   margin-right: 20px;
   cursor: pointer;
+}
+
+.footer-right-block a{
+  margin-right: 20px;
 }
 
 .footer a{
