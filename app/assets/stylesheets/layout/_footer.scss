@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #909CC2;
+  font-size: small;
+  padding-top: 3px;
+  position: absolute;
+  height: 80px;
+  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #FF8F39;
+}
+
+
+.footer-left-block {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.footer-right-block {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left-link {
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer a{
+  text-decoration: none;
+  font-family: 'Baloo Bhaina', cursive;
+  color: #FF8F39;
+}
+
+.footer a:hover{
+  color: #8FB;
+}
