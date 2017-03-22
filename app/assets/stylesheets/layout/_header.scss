@@ -7,7 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #FF8F39;
 }
+
 
 .logo {
   font-family:'Baloo Bhaina', cursive;
@@ -43,7 +45,8 @@
   font-size:12px;
   line-height:32px;
   padding:0 15px;
-  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 15px;
 }
 
 #primary_nav_wrap ul li
