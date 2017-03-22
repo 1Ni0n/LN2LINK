@@ -1,0 +1,41 @@
+.container-home{
+  min-width: 100%;
+  background-color: #DDDDDD;
+}
+
+.pillars{
+  position: relative;
+  min-width: 100%;
+}
+
+.pillars1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pillar{
+  height: 300px;
+  border-radius: 50%;
+  background-color: black;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 110px;
+  color: white;
+  border: 1px solid #FF8300;
+}
+
+.hr{
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+.l{
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
