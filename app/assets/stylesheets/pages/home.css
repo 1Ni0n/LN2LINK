@@ -69,7 +69,39 @@
 #hr, #g, #e, #ec, #c, #l, #co{
   display: none;
 }
+#humanrights:hover #hr{
+  display: block;
+}
+#governance:hover #g{
+  display: block;
+}
+#environment:hover #e{
+  display: block;
+}
+#economic:hover #ec{
+  display: block;
+}
+#consumer:hover #c{
+  display: block;
+}
+#labour:hover #l{
+  display: block;
+}
+#community:hover #co{
+  display: block;
+}
+#hr{
+  top: 375px;
+  right: 600px;
+}
 
-#humanrights:hover + #hr{
-  display:block;
+.pillars a{
+  text-decoration: none;
+}
+
+.pillars p{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 25px;
+  position: absolute;
+  color: #FF8300;
 }

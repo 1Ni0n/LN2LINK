@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def Formation
   end
+
+  def pillars
+  end
 end
