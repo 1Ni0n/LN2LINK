@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'workshop', to: 'pages#workshop'
   get 'alacarte', to: 'pages#ALaCarte'
   get 'formation', to: 'pages#Formation'
+  get 'pillars', to: 'pages#pillars'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
