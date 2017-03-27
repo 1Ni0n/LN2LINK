@@ -3,14 +3,46 @@
   margin-bottom: 0;
   }
 
+.services{
+  min-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://www.wallpapermade.com/images/wallpapers/originals/nature-path-blue-sky-wallpaper-5468.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.servicesall{
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.services a{
+  text-decoration: none;
+}
+
+.service{
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
+  width: 300px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 110px;
+  color: white;
+  border: 1px solid #FF8300;
+}
+
+
 .pillars{
   padding-top:50px;
   padding-bottom: 50px;
-  position: relative;
   min-width: 100%;
-  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://universe-beauty.com/albums/userpics/2011y/05/11/1/10/universe-hd-photo110-JPG.jpg');
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://wp.widewallpapers.net/4k/nature/forest/3840x2160/forest-3840x2160-006.jpg');
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: 4%;
 }
 
 .pillars1{
@@ -43,19 +75,22 @@
 }
 
 .pillar:hover{
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,.5);
   border-color: #8FB;
 }
 
 
+.pillars a{
+  text-decoration: none;
+}
+
 .info{
   min-width: 100%;
-  height: 100px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .text-info {
   display: flex;
   align-items: center;
@@ -67,43 +102,95 @@
   background-color: rgba(0,0,0,0.5);
   color: #FF8300;
 }
+.info p{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 30px;
+}
 
-#hr, #g, #e, #ec, #c, #l, #co{
+.pillarspara{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 45px;
+  color: #8FB;
+
+}
+
+#hr, #g, #e, #ec, #c, #l, #co, #w, #a, #f{
   display: none;
 }
+
 #humanrights:hover #hr{
   display: block;
 }
+#humanrights:hover #hur{
+  display: none;
+}
+
+
 #governance:hover #g{
   display: block;
 }
+#governance:hover #go{
+  display: none;
+}
+
+
 #environment:hover #e{
   display: block;
 }
+#environment:hover #en{
+  display: none;
+}
+
+
 #economic:hover #ec{
   display: block;
 }
+#economic:hover #eco{
+  display:none;
+}
+
 #consumer:hover #c{
   display: block;
 }
+#consumer:hover #con{
+  display:none;
+}
+
+
 #labour:hover #l{
   display: block;
 }
+#labour:hover #la{
+  display:none;
+}
+
+
 #community:hover #co{
   display: block;
 }
-#hr{
-  top: 375px;
-  right: 600px;
+#community:hover #com{
+  display:none;
 }
 
-.pillars a{
-  text-decoration: none;
+#workshop:hover #w{
+  display: block;
+}
+#workshop:hover #wo{
+  display: none;
 }
 
-.pillars p{
-  font-family: 'Baloo Bhaina', cursive;
-  font-size: 25px;
-  position: absolute;
-  color: #FF8300;
+#alacarte:hover #a{
+  display: block;
 }
+#alacarte:hover #al{
+  display: none;
+}
+
+#formation:hover #f{
+  display:block;
+}
+#formation:hover #fo{
+  display:none;
+}
+
+
