@@ -1,6 +1,6 @@
 .container-home{
   min-width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   }
 
 .pillars{
@@ -29,6 +29,7 @@
 }
 
 .pillar{
+  position: relative;
   height: 300px;
   border-radius: 50%;
   background-color: rgba(0,0,0,0.5);
@@ -45,6 +46,7 @@
   background-color: rgba(0,0,0,1);
   border-color: #8FB;
 }
+
 
 .info{
   min-width: 100%;
