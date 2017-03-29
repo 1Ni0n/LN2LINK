@@ -1,24 +1,51 @@
+.container-home1{
+  min-width: 100%;
+  margin-bottom: 0;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://wp.widewallpapers.net/4k/nature/forest/3840x2160/forest-3840x2160-006.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.pillartitle h1{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 50px;
+  color: #FF8300;
+}
+
 .pp{
+  padding-top: 20px;
+  padding-bottom: 20px;
   min-width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .pillarstructure{
-  height: 200px;
-  width: 600px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px 5px 0 5px;
+  width: 450px;
   border: 2px solid black;
+  border-radius: 5px;
   margin: 20px 0 20px 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  font-family: 'Arimo', sans-serif;
+  color: #FF8300;
 }
 
 .pillaravatar{
+  color: white;
+  background-color: black;
   position: absolute;
+  top: -35px;
+  left: -35px;
   border-radius: 50%;
-  height: 50px;
-  width:50px;
+  height: 70px;
+  width:70px;
   border: 1px solid #FF8300;
   display: flex;
   justify-content: center;
