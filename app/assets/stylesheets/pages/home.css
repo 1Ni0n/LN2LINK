@@ -1,3 +1,27 @@
+.tauzin{
+  min-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.tauzin1{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tauzin2{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tauzvatar{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #FF8300;
+}
+
 .container-home{
   min-width: 100%;
   margin-bottom: 0;
@@ -191,5 +215,3 @@
 #formation:hover #fo{
   display:none;
 }
-
-
