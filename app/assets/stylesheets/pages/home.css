@@ -96,6 +96,8 @@
   align-items: center;
   justify-content: center;
 }
+
+
 .text-info {
   display: flex;
   align-items: center;
@@ -107,6 +109,12 @@
   background-color: rgba(0,0,0,0.5);
   color: #FF8300;
 }
+.text-info:hover{
+  border: 1px solid #8FB;
+  color: #8FB;
+}
+
+
 .info p{
   font-family: 'Baloo Bhaina', cursive;
   font-size: 30px;
@@ -169,5 +177,7 @@
   display:none;
 }
 
-
+a {
+  text-decoration: none;
+}
 
