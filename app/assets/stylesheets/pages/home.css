@@ -2,6 +2,9 @@
   min-width: 100%;
   padding-top: 100px;
   padding-bottom: 50px;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://www.wallpapermade.com/images/wallpapers/originals/nature-path-blue-sky-wallpaper-5468.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 .tauzin1{
   min-width: 100%;
@@ -15,6 +18,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.t2{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arimo', sans-serif;
+}
+
+
 .tauzvatar{
   height: 300px;
   width: 300px;
@@ -26,37 +39,6 @@
   min-width: 100%;
   margin-bottom: 0;
   }
-
-.services{
-  min-width: 100%;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://www.wallpapermade.com/images/wallpapers/originals/nature-path-blue-sky-wallpaper-5468.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-.servicesall{
-  min-width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.services a{
-  text-decoration: none;
-}
-
-.service{
-  height: 300px;
-  border-radius: 50%;
-  background-color: rgba(0,0,0,0.5);
-  width: 300px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font-size: 110px;
-  color: white;
-  border: 1px solid #FF8300;
-}
 
 
 .pillars{
@@ -188,30 +170,4 @@
 }
 
 
-#community:hover #co{
-  display: block;
-}
-#community:hover #com{
-  display:none;
-}
 
-#workshop:hover #w{
-  display: block;
-}
-#workshop:hover #wo{
-  display: none;
-}
-
-#alacarte:hover #a{
-  display: block;
-}
-#alacarte:hover #al{
-  display: none;
-}
-
-#formation:hover #f{
-  display:block;
-}
-#formation:hover #fo{
-  display:none;
-}
