@@ -23,7 +23,7 @@
   font-size: 1.5em;
   transition: 0.5s ease;
   &:hover {
-    color: #FE305C;
+    color: #FF8300;
   }
 }
 
@@ -33,4 +33,14 @@
 
 .modal-dialog {
   color: green;
+}
+
+.modal-content{
+  height: 400px;
+  width: 600px;
+  height: 50%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
