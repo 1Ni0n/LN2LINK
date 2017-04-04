@@ -7,7 +7,7 @@
 }
 
 
-.pillartitle h1{
+.pillarheader h1{
   font-family: 'Baloo Bhaina', cursive;
   font-size: 50px;
   color: #FF8300;
@@ -26,6 +26,7 @@
   background-color: rgba(0,0,0,0.5);
   padding: 20px 5px 0 5px;
   width: 450px;
+  height: 270px;
   border: 2px solid black;
   border-radius: 5px;
   margin: 20px 0 20px 0;
@@ -50,4 +51,61 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.pillartitle{
+  display: none;
+  color: #8FB;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 35px;
+}
+
+#ac:hover #ab{
+  display: none;
+}
+#ac:hover #aa{
+  display: block;
+}
+
+#bd:hover #bc{
+  display: none;
+}
+#bd:hover #bb{
+  display: block;
+}
+
+#ce:hover #cd{
+  display: none;
+}
+#ce:hover #cc{
+  display: block;
+}
+
+#df:hover #de{
+  display: none;
+}
+#df:hover #dd{
+  display: block;
+}
+
+#eg:hover #ef{
+  display: none;
+}
+#eg:hover #ee{
+  display: block;
+}
+
+#fh:hover #fg{
+  display: none;
+}
+#fh:hover #ff{
+  display: block;
+}
+
+#gi:hover #gh{
+  display: none;
+}
+#gi:hover #gg{
+  display: block;
 }
