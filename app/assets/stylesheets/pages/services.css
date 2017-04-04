@@ -74,3 +74,30 @@
 #formation:hover #fo{
   display:none;
 }
+
+.animal{
+  display: none;
+  color: #8FB;
+  font-family: 'Arimo', sans-serif;
+}
+
+#maow:hover #maowww{
+  display: none;
+}
+#maow:hover #maoww{
+  display: block;
+}
+
+#wouf:hover #woufff{
+  display: none;
+}
+#wouf:hover #wouff{
+  display: block;
+}
+
+#meuh:hover #meuhhh{
+  display: none;
+}
+#meuh:hover #meuhh{
+  display: block;
+}
