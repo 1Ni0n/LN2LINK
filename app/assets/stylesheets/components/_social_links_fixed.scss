@@ -28,7 +28,7 @@
 }
 
 .modal {
-  color: red;
+  color: #FF8300;
 }
 
 .modal-dialog {
@@ -36,11 +36,11 @@
 }
 
 .modal-content{
-  height: 400px;
+  height: 200px;
   width: 600px;
-  height: 50%;
   left: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+
+.modal-content h1{
 }
