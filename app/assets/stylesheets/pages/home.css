@@ -31,8 +31,6 @@
 .tauzvatar{
   height: 300px;
   width: 300px;
-  border-radius: 50%;
-  border: 1px solid #FF8300;
 }
 
 .container-home{
@@ -112,6 +110,7 @@
 .text-info:hover{
   border: 1px solid #8FB;
   color: #8FB;
+  text-decoration: none;
 }
 
 
@@ -177,7 +176,7 @@
   display:none;
 }
 
-a {
+a, p{
   text-decoration: none;
 }
 
