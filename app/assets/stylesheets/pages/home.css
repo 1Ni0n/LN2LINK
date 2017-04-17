@@ -2,7 +2,7 @@
   min-width: 100%;
   padding-top: 100px;
   padding-bottom: 50px;
-  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("http://res.cloudinary.com/dhxff51co/image/upload/q_50/v1492416029/sky_kmay57.jpg");
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("http://res.cloudinary.com/dhxff51co/image/upload/q_35/v1492416029/sky_kmay57.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -43,7 +43,7 @@
   padding-top:50px;
   padding-bottom: 50px;
   min-width: 100%;
-  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://res.cloudinary.com/dhxff51co/image/upload/q_50/v1492416063/forest_muohzc.jpg');
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://res.cloudinary.com/dhxff51co/image/upload/q_28/v1492416063/forest_muohzc.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
